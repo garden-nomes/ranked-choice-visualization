@@ -1,0 +1,14 @@
+.Vote {
+}
+
+.Vote-option {
+  margin-bottom: .5rem;
+}
+
+.Vote-option:last-child {
+  margin-bottom: 0;
+}
+
+.Vote-label {
+  margin-left: .5rem;
+}

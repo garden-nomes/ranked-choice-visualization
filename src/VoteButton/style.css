@@ -1,0 +1,66 @@
+.VoteButton {
+  width: 2rem;
+  height: 2rem;
+
+  background: none;
+
+  border: 2px dashed #333;
+  border-radius: 4px;
+
+  line-height: inherit;
+  font-size: 1.2rem;
+  color: #fff;
+
+  cursor: pointer;
+  outline: none;
+
+  transition-property: border-width, border-radius, border-color, background;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+}
+
+/*.VoteButton:focus {
+  border-style: dashed;
+}*/
+
+.VoteButton_1,
+.VoteButton_2,
+.VoteButton_3,
+.VoteButton_4,
+.VoteButton_5 {
+  border-width: 0;
+  border-radius: 1rem;
+}
+
+/*.VoteButton_1:focus,
+.VoteButton_2:focus,
+.VoteButton_3:focus,
+.VoteButton_4:focus,
+.VoteButton_5:focus {
+  border: 2px dashed #555;
+}*/
+
+.VoteButton_1 {
+  background: #ffbe0b;
+  border-color: #ffbe0b;
+}
+
+.VoteButton_2 {
+  background: #fb5607;
+  border-color: #fb5607;
+}
+
+.VoteButton_3 {
+  background: #541388;
+  border-color: #541388;
+}
+
+.VoteButton_4 {
+  background: #51e5ff;
+  border-color: #51e5ff;
+}
+
+.VoteButton_5 {
+  background: #780116;
+  border-color: #780116;
+}

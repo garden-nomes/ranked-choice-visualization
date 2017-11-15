@@ -1,0 +1,31 @@
+.Intro-head {
+  display: flex;
+  align-items: flex-end;
+
+  margin-bottom: 1.5rem;
+}
+
+.Intro-head-right p:last-child,
+.Intro-body-left p:last-child {
+  margin-bottom: 0;
+}
+
+.Intro-head-left {
+  margin-right: 1.5rem;
+}
+
+.Intro-head-left h1 {
+  max-width: 10rem;
+  text-align: right;
+  margin: 0;
+}
+
+.Intro-body {
+  display: flex;
+  align-items: flex-end;
+}
+
+.Intro-body-left {
+  margin-right: 1.5rem;
+  flex: 1;
+}
