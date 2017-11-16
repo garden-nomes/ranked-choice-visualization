@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
-import Vote from './Vote';
-import { OPTIONS } from './constants';
-import './Intro.css';
+import PropTypes from 'prop-types';
+import Vote from '../../Vote';
+import { OPTIONS } from '../../constants';
+import './style.css';
 
 class Intro extends Component {
+  static propTypes = {
+    onVote: PropTypes.func
+  };
+
   render() {
+    const { onVote } = this.props;
     return (
       <div className="Intro">
         <div className="Intro-head">
@@ -13,16 +19,16 @@ class Intro extends Component {
           </div>
           <div className="Intro-head-right">
             <p>
-              Traditional voting (usually know as "first-past-the-post" voting)
-              is plagued with problems, such as{' '}
+              The traditional method of voting (usually know as
+              "first-past-the-post" voting) is plagued with problems, such as{' '}
               <a
                 href="https://en.wikipedia.org/wiki/Vote_splitting"
                 target="_blank"
               >
                 split voting
               </a>{' '}
-              or the need for expensive primary or runoff elections. A lot of
-              these problems stem from the limitations of only being able to
+              or the need for expensive primary and/or runoff elections. A lot
+              of these problems stem from the limitations of only being able to
               vote for a single candidate. Luckily, there is an alternative.{' '}
             </p>
             <p>
@@ -52,7 +58,7 @@ class Intro extends Component {
             </p>
           </div>
           <div className="Intro-body-right">
-            <Vote options={OPTIONS} />
+            <Vote options={OPTIONS} onComplete={onVote} />
           </div>
         </div>
       </div>

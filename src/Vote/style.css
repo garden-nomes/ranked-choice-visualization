@@ -2,7 +2,7 @@
 }
 
 .Vote-option {
-  margin-bottom: .5rem;
+  margin-bottom: .75rem;
 }
 
 .Vote-option:last-child {
@@ -10,5 +10,5 @@
 }
 
 .Vote-label {
-  margin-left: .5rem;
+  margin-left: .75rem;
 }

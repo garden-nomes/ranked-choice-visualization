@@ -2,7 +2,7 @@
   display: flex;
   align-items: flex-end;
 
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .Intro-head-right p:last-child,
@@ -15,7 +15,7 @@
 }
 
 .Intro-head-left h1 {
-  max-width: 10rem;
+  max-width: 12rem;
   text-align: right;
   margin: 0;
 }
@@ -28,4 +28,8 @@
 .Intro-body-left {
   margin-right: 1.5rem;
   flex: 1;
+}
+
+.Intro-body-right {
+  min-width: 10rem;
 }

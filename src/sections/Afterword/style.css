@@ -1,0 +1,19 @@
+.Afterword-head {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.Afterword-head h1 {
+  flex: 0 0 26rem;
+  display: flex;
+}
+
+.Afterword-head h1 .left {
+  text-align: right;
+  margin-right: 1.5rem;
+}
+
+.Afterword-head h1 .right {
+  font-style: italic;
+}

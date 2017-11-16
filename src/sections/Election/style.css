@@ -1,0 +1,10 @@
+.Election-buttons {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 1.5rem;
+}
+
+.Election-chart {
+  margin-bottom: 1.5rem;
+}
