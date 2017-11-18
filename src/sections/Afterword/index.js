@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Vote from '../../Vote';
-import { OPTIONS } from '../../constants';
 import './style.css';
 
 class Afterword extends Component {

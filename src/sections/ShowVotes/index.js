@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Chart from './Chart';
 import { OPTIONS } from '../../constants';
 import './style.css';
 
@@ -63,8 +64,7 @@ class ShowVotes extends Component {
           hundred including yours.
         </p>
         <p>
-          {/* placeholder for animated chart displaying the votes */}
-          <svg width="100%" height="400px" />
+          <Chart choice={choice} votes={votes} />
         </p>
         {votes &&
           votes.length &&

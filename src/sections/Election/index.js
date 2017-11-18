@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import Simulation from '../../Simulation';
-import { OPTIONS, COLORS } from '../../constants';
+import { OPTIONS } from '../../constants';
 import groupVotesByStage from '../../groupVotesByStage';
 import './style.css';
 
